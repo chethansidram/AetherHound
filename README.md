@@ -1,31 +1,31 @@
+
 # AetherHound
 ## Air-Gapped RF & Acoustic Covert Channel Detector
 
-AetherHound is an educational, defensive cybersecurity project focused on analysing **simulated** radio-frequency (RF) and acoustic signal data to identify unusual patterns.
+### Project Overview
+AetherHound is a cybersecurity project designed to detect unusual RF and acoustic signals that may indicate covert communication activity in air-gapped environments.
 
-## Project objectives
-- Generate and analyse synthetic signal samples.
-- Explore frequency-domain analysis using FFT.
-- Visualise simulated signals and spectrograms.
-- Build a defensive anomaly-detection prototype.
-- Present analysis results in a simple terminal interface.
+### Objectives
+- Collect and analyze simulated RF signals.
+- Process acoustic signal data.
+- Apply FFT and spectrogram analysis.
+- Develop machine-learning-based anomaly detection.
+- Display detection results through a terminal dashboard.
 
-## Planned technology
+### Technology Stack
 - Python
-- NumPy and SciPy
+- NumPy
+- SciPy
 - Matplotlib
-- PyTorch (planned)
-- GNU Radio (optional, subject to available equipment)
+- PyTorch
+- GNU Radio
+- Rich
 
-## Development status
-Repository setup and initial Python scaffold.
+### Development Status
+Initial repository setup completed.
 
-## Safety scope
-Development and testing use synthetic or otherwise authorised sample data. This project does not implement covert transmission or interference.
+### Project Team
+AetherHound Internship Team
 
-## Getting started
-Run the starter script:
-
-```powershell
-python main.py
-```
+### Disclaimer
+This project is developed for educational and defensive cybersecurity research.
